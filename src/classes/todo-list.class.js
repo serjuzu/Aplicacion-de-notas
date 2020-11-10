@@ -9,7 +9,7 @@ export class TodoList {
   nuevoTodo(todo) {
     this.todos.push(todo);
     this.guardarLocalStorage();
-  }
+    }
 
   eliminarTodo(id) {
     this.todos = this.todos.filter((todo) => todo.id != id);
