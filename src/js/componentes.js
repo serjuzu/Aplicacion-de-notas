@@ -83,7 +83,7 @@ ulFiltros.addEventListener('click',(event)=>{
           elemento.classList.add('hidden');
         }
         break;
-      case 'Completados':
+      case 'Completadas':
         if (!completado) {
           elemento.classList.add('hidden');
         }
